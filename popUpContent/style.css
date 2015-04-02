@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: black;
+	}
+p {
+	margin-bottom: 2px;
+	}
+input[type="text"], input[type="email"] {
+	box-shadow: -2px 2px 3px #888888;
+	}
+.heading {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 0.75em;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #77787c;
+	}
+#wrapper {
+	margin-top: 30px;
+	color: #2e5f85; 
+	}
+#fb_register {
+	/* width: 80%;
+	margin: 0 auto; */
+	text-align: center;
+	background: #2e4588;
+	}
+#register_form {
+	text-align: center;
+	color: #2e5f85;
+	background: #f5f5f5;
+	}
+.agreement, .agreement_grey {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 0.7em;
+	margin-top: 10px;
+	}
+.agreement_grey {
+	color: #77787c;
+	}
+#register {
+	height: 37px;
+	width: 209px;
+	margin: 0 auto;
+	background: url(img/email_register.jpg) no-repeat;
+	color: white;
+	border: none;
+	font-size: 0.8em;
+	}
+#fb_button {
+	height: 50px;
+	width: 209px;
+	margin-top: 20px;
+	background: url(img/facebook_register.jpg) no-repeat;
+	color: white;
+	border: none;
+	font-size: 0.8em;
+	}
+#captcha {
+	background: #054c80;
+	color: white;
+	padding: 10px 0 10px 0;
+	font-family: sans-serif;
+	font-weight: 200;
+	margin-bottom: 10px;
+	}
+#confirm-captcha {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+/*--------------------------------*/
+#wrapper2 {
+	text-align: center;
+	}
+#confirm_message {
+	color: #6f6f6f;
+	font-family: sans-serif;
+	font-weight: 600;
+	background: white;
+	padding-top: 30px;
+	}
+#thanks {
+	font-size:1.5em;
+	font-weight: 600;
+	color: #11248a;
+	}
+#cta {
+	font-size: 0.75em;
+	margin-top: -5px;
+	}
+.profile {
+	background: url(img/complete_profile.jpg) no-repeat;
+	border: none;
+	color: white;
+	font-size: 0.9em;
+	height: 45px;
+	margin: 15px auto;
+	padding: 10px 20px;
+	width: 208px;
+	}
+/*--------------------------------*/
+#wrapper3 {
+	background: white;
+	color: #266180;
+	font-family: sans-serif;
+	}
+#profile_form {
+	font-size: 0.8em;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: left;
+	}
+.radio_btns {
+	width: 100px;
+	color: #266180;
+	display: inline-block;
+	font-family: sans-serif;
+	}
+@media (max-width: 768px) {
+	.radio_btns {
+		display: block;
+		margin: 0 auto;	
+		}
+	}
+input[type="radio"], input[type="checkbox"] {
+	margin: 0 5px 15px 0;
+	}
+#zipcode {
+	margin-bottom: 20px;
+	padding: 5px;
+	}
+#confirm {
+	text-align: center;
+	width: 100%;
+	}
+.btm_text {
+	color: #266180;
+	font-family: sans-serif;
+	font-size: 0.5em;
+	font-style: italic;
+	font-weight: 400;
+	text-decoration: none;
+	}
+#wrapper3 p {
+	font-size: 0.9em;
+	font-weight: 600;
+	margin: 15px 0;
+	}
+/*--------------------------------*/
+::-webkit-input-placeholder{ /* WebKit browsers */
+    color: #054c80;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #054c80;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #054c80;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: #054c80;
+}
+/*--------------------------------*/
+#wrapper4 {
+	background: white;
+	text-align: center;
+	}
+#wrapper4 p {
+	color: #11248a;
+	font-size: 1.35em;
+	font-weight: 600;
+	padding: 50px 40px;
+	}
+/*--------------------------------*/
+#wrapper5 {
+	background: #e3e3e3;
+	padding: 20px 0;
+	}
+#wrapper5 p {
+	font-size: 0.75em;
+	margin: 15px 0;
+	}
+#wrap5_header strong{
+	font-style: italic;
+	font-size: 2em;
+	}
+/*--------------------------------*/
+#wrapper6 {
+	background: #f5f5f5;
+	}
+#wrapper6 input[type="text"], #wrapper6 input[type="password"] {
+	margin: 10px 0;
+	box-shadow: -2px 2px 3px #888888;
+	}
+#update_form {
+	padding-top: 30px;
+	text-align: center;
+	}
+#update_button {
+	background: url(img/update_button.jpg) no-repeat;
+	border: none;
+	height: 44px;
+	margin-top: 25px;
+	margin-bottom: 5px; 
+	width: 209px;
+	}
+.cancel {
+	color: grey;
+	font-size: 0.7em;
+	font-weight: bold;
+	}
+/*--------------------------------*/
+#wrapper7 {
+	background: #f5f5f5;
+	text-align: center;
+	}
+#wrapper7 img {
+	margin-top: 20px;
+	width: 100%;
+	}
+#wrapper7 .content {
+	text-align: left;
+	}
+#wrapper7 p.small {
+	font-size: 0.6em;
+	}
+#redeem_button {
+	background: url(img/redeem_button.jpg) no-repeat;
+	height: 44px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 145px;
+	}
+/*--------------------------------*/
+#wrapper8 {
+	background: #f5f5f5;
+	text-align: center;
+	}
+#wrapper8 img {
+	margin-top: 20px;
+	width: 100%;
+	}
+#wrapper8 img.small {
+	margin: 10px;
+	width: 20px;
+	}
+#wrapper8 .content {
+	text-align: left;
+	}
+#wrapper8 p.small {
+	font-size: 0.6em;
+	}

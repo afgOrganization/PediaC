@@ -1,0 +1,717 @@
+@media only screen and (max-width: 641px){
+	.login .errorMessage {
+		top: 24px;
+		right: 5px;
+	}
+	.email {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.password {
+		margin-top:5px;
+		margin-bottom: 5px;
+	}	
+}
+/*mobile display buttons*/
+	.mobileImg{
+		display:none;
+		}
+	.desktopImg{
+		display:block;}
+	.dt {
+		display: block;
+	}
+	.mob {
+		display: none;
+	}
+
+/*--------------Responsive breakpoints-------------*/
+@media (max-width: 1024px){
+	.login{
+		width:100%;
+		height:auto;
+	}
+	.profile-panel-outer-container{
+		width:100%;
+	}
+	.featured-product-container{
+		padding:5%;
+	}
+	/*disable mobile thumb images*/
+	.left-thumb-mobile-img,.middle-thumb-mobile-img,.right-thumb-mobile-img{
+		display:none;
+	}
+	
+	/*live text for redeem rewards*/
+	.redeemShort {
+		padding-top: 22px;
+	}
+	
+	/*home page logged out and logged in left thumb text resize*/
+	.left-thumb-text{
+		width:48%;
+		}
+	.left-thumb-text h3{
+		font-family: "Fedra Sans";
+		font-weight:bold;
+		font-size: 14px;
+		line-height: 18px;
+		margin-top:-8px;
+		}
+	.HowItWorks_text h3{
+		font-size: 1em;
+		}
+}
+/* Text */
+@media (max-width: 900px) {
+	
+	.heroText h1 {
+		font-size: 1.6em;
+	}
+	.heroText p {
+		font-size: .7em;
+		width:76%;
+	}
+	#wrapper10 h1{
+		font-size:1.2em;
+		}
+	.redeem_textContainer h2{
+		font-size:0.8em;
+		}
+	.redeemShort{
+		padding-top: 15px;
+	}
+	.coupon_textContainer{
+		padding-top: 34px;
+		}
+}
+
+@media only screen and (max-width: 840px) {
+	/*columns and row are found in the foundation css files for @media under 640px reset margins and padding to 0*/
+	.columns h2 {
+		line-height: 17px;
+		margin-top:5px;
+	}
+	.earnPoints_textContainer{
+		padding-top: 17px;
+		}
+	.row .row{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	/*top nav display text in block format*/
+	.rewards-nav a{
+		display:block;
+		width:99%;
+	}
+	
+	.rewards-nav br {
+		display: block;
+	}
+	
+	.rewards-nav ul li {
+		padding:19px 15px 12px 15px;
+		/*padding: 5px 11px 12px 11px;*/
+		line-height: 10px;
+	}
+	.rewards-nav ul li:nth-child(4) a{
+		width:92%;
+	}
+	#login-container {
+		float: none;
+		width: 100%;
+	}
+	
+	.earning_button{
+	position:absolute;
+	top:59%;
+	left:62%;
+	width:31%;
+	}
+	.profile-panel-outer-container{
+		width:100%;
+		height: 128px;
+		position:relative;
+		margin-bottom:17px;
+		border-radius:0px;
+	}
+/*login text "Already a member? & Log in Now" display inline block for tablet and mobile*/
+	#profile-container {
+		float: none;
+		width: 100%;
+		}
+
+	.profile-panel-outer-container p{
+		display:inline-block;
+	}
+/*profile panel container and shifting profile points box for tablet*/	
+	.profile-panel{
+		width:100%;
+	}	
+	.profile-panel li {
+		display:block;
+	}
+	.profile-points {
+		position:absolute;
+		left:28%;
+		top:37%;
+	}
+	#main-rewards-container {
+		padding-top: 0;
+		max-width: 100%;
+	}
+	.rewards-nav li a:hover {
+		/*border-bottom: 4px solid #FF0;
+		padding-bottom:8px;*/
+	}
+	.rewards-nav ul {
+		/*margin-left:-5%;*/
+	}
+	
+	/*login text "Already a member? & Log in Now" display inline block for tablet and mobile*/
+	.login span {
+		display: inline-block;
+		margin-left: 2px;
+	}
+	/*input and login button containers  for diplaying inline*/	
+	.input-field-container{
+		width: 629px;
+		margin: 0 auto;
+	}	
+	.input-field-container li{
+		display:inline-block;
+	}
+	.login form{
+		width:100%; 
+	    margin:0 auto;
+		margin-top:2%;
+	}
+	.main-thumb{
+		margin-top: 2px;
+		}	
+	.left-thumb-button,.right-thumb-button{
+		width:51%;
+	}
+	.middle-thumb-button { 
+		width:60%; 
+	}
+	.login-social-media{
+		display:none;
+	}
+	.login-button-tablet{
+		margin-top:-13px;
+		vertical-align:top;
+	}
+	.login-social-media{
+		display:none;
+	}
+	.left-thumb,.middle-thumb,.right-thumb{
+		position:relative;
+		padding-left: 0.9375rem;
+		padding-right: 0.9375rem;
+	}
+	/*home page logged out and logged in left thumb text resize*/
+	.left-thumb-text{
+		width:40%;
+		}
+	.left-thumb-text h3{
+		font-family: "Fedra Sans";
+		font-weight:bold;
+		font-size: 16px;
+		line-height: 21px;
+		margin-top:-8px;
+		}
+	.main-thumb{
+		/*margin-top:4%;*/
+	}
+	.logOut-button{
+		display:none;
+	}
+	.logOut-tablet{
+		display:block;
+		width: 82px;
+		position:absolute;
+		right: 0;
+		top: 53px;
+		color: #FFF;
+		font-weight: bold;
+	}
+	.profile-icon{
+		width:13%;
+	}
+	.points-container{
+		width:100%;
+		/*margin-top:0%;*/
+		text-align:justify;
+		clear:none;
+	}
+	.points-button-container{
+		width:42%;
+		margin-bottom:0%;
+		margin-left:-44px;
+		padding-top:8px;
+		white-space:nowrap;
+	}
+	.learnMoreContainer{
+		width:43%;
+		}
+	.learnMoreContainer img{
+		width:55%;
+		}
+	
+	.points-button-container li:nth-child(1),.points-button-container li:nth-child(2){
+		display:inline-block;
+		}
+	.points-button-container li:nth-child(3),.points-button-container li:nth-child(4),.points-button-container li:nth-child(5){
+		display:inline-block;
+		}
+	/*break styles for desktop and mobile. enable break for desktop and disable for tablet and mobile*/
+	br {
+		display:none;
+	}
+	.featured-product-container{
+		display:none;
+	}
+	/*redeem points page tablet styles*/
+	.redeemShort{
+		padding-top: 23px;
+	}
+}
+/* Main Nav */
+@media only screen and (max-width: 739px){
+
+	.rewards-nav ul li {
+		padding: 19px 7px 12px 7px;
+	}
+	.rnLO ul {
+		/*text-align: left;
+		margin-left: 200px;*/
+	}
+	
+	.left-thumb-text{
+		width:45%;
+		}
+	.left-thumb-text h3{
+		font-family: "Fedra Sans";
+		font-weight:bold;
+		font-size: 16px;
+		line-height: 18px;
+		margin-top:-8px;
+		}
+@media only screen and (max-width: 658px){
+	.rewards-nav ul li {
+		/*padding: 19px 5px 12px 5px;*/
+	}
+
+
+@media only screen and (max-width: 641px){
+	/*mobile display buttons*/
+	.dt {
+		display: none;
+	}
+	.mob {
+		display: block;
+	}
+	.columns h2{
+		font-size:1.2em;
+		line-height:24px;
+		}
+	.columns{
+		padding-left:16px;
+		padding-right:16px;
+		margin-bottom: 20px;
+	}
+	.columnBtn {
+		left: initial;
+		right: 0;
+	}
+	.heroText p{
+		width:74%;
+		}
+	#wrapper10 h1{
+		font-size:0.9em;
+		}
+	.howItWorks-signUp p{
+		font-size:1.5em;
+		}
+	{
+		font-size:.8em;
+		left:7%;
+		}
+	.textContainer {
+		left: 49%; 
+		right: 5%;
+		bottom: 0;  
+		height: 94%; 
+		padding-top: 12px;
+	}
+	.homeTextContainer {
+		height: 90%;
+	}
+	.mobileImg{
+		display:block;
+		
+		}
+	.desktopImg{
+		display:none;}
+	
+	.profile-panel {
+		padding-top: 15px;
+	}
+	.view-profile {
+	    text-align: center;
+	}
+	/*adjust foundation css styling to 100% for medium (tablet) view*/
+	.medium-4 {
+		width: 100%;
+	}
+	
+	.profile-panel-outer-container{
+		width:100%;
+		height: auto;
+		
+	}
+	.rewards-nav ul li{
+		width:18%;
+	}
+	.rnLO .rewards-nav ul li {
+		width: 30%;
+	}
+	.rewards-nav ul li:hover {
+		
+	}
+	.rewards-nav ul li:nth-child(2) a{
+		width:92%;
+		}
+	.rewards-nav ul li:nth-child(4) a{
+		width:81%;
+		}
+	.login {
+		padding-bottom: 0;
+		height: 147px;
+	}
+	.logOut-container{
+		margin-bottom:0%;
+		}
+	.profile-icon{
+		width:20%;
+		margin: 0 15px 0 5px;
+		}
+	.login form{
+		margin:0px;
+		}
+	.input-field-container{
+		width: 54%;
+		float:left;
+		margin-left:6%;
+		margin-top: 3px;
+	}
+	.input-field-container li:nth-child(1),.input-field-container li:nth-child(2){
+		display:block;
+		width:100%;
+	}
+	.mobile-login-buttons{
+		width: 165px;
+		position: relative;
+		float: right;
+		margin-top: 17px;
+		height: 66px;
+		text-align: center;
+	}
+	.mobile-login-buttons img{
+			display:inline-block;
+			float:left;
+			height: 100%;
+			width: auto;
+			}
+	/*diable desktop thumb images for mobile*/
+	.left-thumb-img,.middle-thumb-img,.right-thumb-img{
+			display:none;
+			}		
+	/*enable mobile thumb images*/
+	.left-thumb-mobile-img,.middle-thumb-mobile-img,.right-thumb-mobile-img{
+			display:block;
+			}
+	.left-thumb-mobile-img{
+		width:100%;
+		}
+	.middle-thumb-mobile-img{
+		width:100%;
+		}
+	.right-thumb-mobile-img{
+		width:100%;
+		}
+	.rnLO ul {
+		
+		margin-left: 50px;
+	}
+	.loMain {
+		margin-top: 20px;
+	}
+		
+
+	/*---thumb button adjustments for mobile----*/
+	.main-thumb-button{
+		width:22%;
+		left:5%;
+		}
+	.middle-thumb-button{
+		width:30%;
+		margin-top:-4%;
+		margin-left:45%;
+		}
+	.left-thumb-button,.right-thumb-button{
+			width:25%;
+			margin-top:-4%;
+			margin-left:32%;
+		}
+	.middle-thumb-cta-container{
+		width:50%;
+		right:0%;
+		}
+	.left-thumb, .middle-thumb, .right-thumb{
+		margin-top:0; 
+	}
+	
+	
+	/*Redeem points page mobile live text adjust*/
+	.coupon_textContainer h2{
+		position:absolute;
+		left:50%;
+		bottom:109%;
+		width:58%;
+	}
+	.facebookPhoto_textContainer h2{
+		position:absolute;
+		left:50%;
+		bottom:103%;
+		width:58%;
+	}
+	.thermometerContainer h2{
+		position:absolute;
+		left:50%;
+		bottom:100%;
+		width:58%;
+	}
+	.pediaBearContainer h2{
+		position:absolute;
+		left:50%;
+		bottom:109%;
+		width:58%;
+	}
+	.vTechContainer h2{
+		position:absolute;
+		left:50%;
+		bottom:109%;
+		width:58%;
+	}
+	.howItWorks_container {
+		padding: 0 28px;
+	}
+	footer ul li {
+		font-size: .6em;
+	}
+	
+}
+
+@media only screen and (max-width: 570px){
+	.mobile-login-buttons {
+		/*margin-top: 2%;*/
+	}
+	.input-field-container{
+		width: 46%;
+	}
+		
+}
+@media only screen and (max-width: 500px){
+	#wrapper10 h1, .submit_receipt h1 {
+		font-size: 1em;
+		}
+		ul.loggedOut li {
+			width: 24%!important;
+		}
+
+}
+@media only screen and (max-width: 460px){
+	.columns h2 {
+		font-size: 14px;
+		margin-bottom: 2px;
+	}
+}
+
+@media only screen and (max-width: 405px){
+	.heroText h1 {
+		font-size: .6em;
+	}
+	.heroText p {
+		font-size: .3em!important;
+		margin-top: -2px;
+		font-weight: 200!important;
+	}
+}
+
+
+/* Live Text Responsive Styles */
+@media only screen and (max-width: 768px) {
+	.heroText h1 {
+			font-size: 2.0em;
+	}
+	.heroText p {
+		line-height: 22px!important;
+		font-size: 1em!important;
+		margin-top: -2px;
+		font-weight: 200!important;
+	}
+	.redeemShort{
+		padding-top: 13px;
+	}
+}	
+@media only screen and (max-width: 734px){
+	.heroText h1 {
+			font-size: 1.8em;
+	}
+	
+}
+@media only screen and (max-width: 690px){
+	.rules-table td{
+		font-size:0.8em;
+		}
+}	
+@media only screen and (max-width: 580px){
+	.heroText h1 {
+			font-size: 1.4em;
+	}
+	.heroText p{
+		width:93%;
+		line-height: 21px!important;
+		font-size: 1em!important;
+	}
+	.rules-table td{
+		font-size:0.6em;
+	}
+
+}
+@media only screen and (max-width: 465px){
+	.heroText h1 {
+			font-size: 1.2em;
+	}
+	.heroText p {
+		line-height: 19px!important;
+		font-size: 0.9em!important;
+		margin-top:4px;
+	}
+	.left-thumb-text{
+		width:43%;
+		}
+	.rewards-nav a {
+		font-size: .5em;
+		line-height: 9px;
+		padding: 5px 0px 12px 0px;
+		width: 25%;
+	}
+	.input-field-container{
+		width: 40%;
+	}
+
+}	
+/* Main Nav */
+@media only screen and (max-width: 739px){
+
+	/*.rnLO ul {
+		
+		margin-left: 200px;
+	}*/
+}
+@media only screen and (max-width: 980px){
+	.textContainer p {
+		margin-top: 4px;
+	}
+	.columnBtn {
+		bottom: 10px;
+	}	
+}
+@media only screen and (max-width: 444px){
+	
+	.rules-table td{
+		padding:1px;
+		}
+	.rules-table td:first-child{
+		padding-left:0px;
+		}
+	
+	.textContainer{
+		left:49%;
+		}
+	.heroText h1 {
+		font-size: 1em;
+	}
+	.heroText p {
+		font-size: .8em!important;
+		margin-top: 2px;
+		font-weight: 200!important;
+		line-height: 15px!important;
+	}
+	.rewards-nav a {
+		font-size: .4em;
+		line-height: 9px;
+		padding: 5px 0px 12px 0px;
+	}
+	.logOut-tablet{
+		top: 5px;
+		right: 5px;
+		font-size: .7em;
+		text-align: right;
+	}
+	.homeTextContainer {
+		height: 99%;
+	}
+	.columns h2,.left-thumb-text h3{
+		font-size: .7em;
+		line-height:16px;
+	}
+	.col p {
+		font-size: .6em;
+		/*font-weight: 300!important;*/
+	}
+	
+	/*HOW IT WORKS small mobile adjust*/
+	.earning_button{
+		top:53%;
+		left:58%;
+	}
+	.HowItWorks_text h3{
+		font-size:0.5em;
+	}
+	
+	/*redeem points more info live text adjust*/
+	.moreInfo {
+		bottom:13px;
+		right:-9px;
+		font-size:0.9em;
+	}
+	.columnBtn_mobile {
+		position: absolute;
+		height: auto;
+		width: 25%;
+		bottom: 2%;
+		left: 52%;
+	}
+	.coupon_textContainer,.facebookPhoto_textContainer,.thermometerContainer,.pediaBearContainer,.vTechContainer{
+		left: 5%; 
+		}
+		
+	/*POINTS HISTORY small mobile adjust*/
+	table{
+		font-size: 0.7em;
+		}
+	.leaderboard-page img{
+		width:15%;
+		height:auto;
+	}
+	.input-field-container{
+		width: 36%;
+	}
+	
+}	
+	
+	

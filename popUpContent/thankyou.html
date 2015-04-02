@@ -1,0 +1,50 @@
+
+     <div id="thankyou" class="center pad">
+
+    			<h2 class="thanks">Thank you for registering.</h2>
+            	<p class="cta">Complete your profile and earn 1,000 points!</p>
+                <br />
+            	<img class="completeProfile" src="img/popupAssets/completeProfileNow.jpg" />
+                <br />
+            	<a class="btm_text" href="#">complete later</a>
+        	
+    </div>
+
+
+     <img class="popBoxImg" src="img/closeX.png" />
+    
+
+    <!-- Close Popup -->
+
+    <script>
+        $('.btm_text, .popBoxImg').on('click', function(){
+            $('.overlay').fadeOut();
+        });
+
+        //Thank You Pop Up (Pops  Up After Registering) 
+        $('.completeProfile').on('click', function(event){
+
+        event.preventDefault();
+
+        $('.overlay').hide();
+        
+        $.ajax('popUpContent/completeProfile.html', {
+            success: function (response) {
+                $('.popBox').html(response).fadeIn();
+                $('.overlay').fadeIn();
+                return response;
+                
+
+            },
+            error : function(request, errorType, errorMessage){
+                alert('There was a problem loading the content. Pleas try again later.'); 
+                //+ errorType + ' Message: ' + errorMessage
+                return;
+
+            },
+            timeout : 20000 ,
+        });
+        
+        console.log('ajax btn clicked');
+        });
+    </script>

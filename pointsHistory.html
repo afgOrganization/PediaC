@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>PediaCare | Points History</title>
+
+    <!-- Roboto Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,300,300italic,500,500italic,700italic,900,900italic,100italic,100' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="https://fonts.typotheque.com/WF-024850-007764.css" type="text/css" />
+
+    
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/globalStyles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/buttonStyles.css" />
+    <link rel="stylesheet" href="css/popup.css">
+   
+
+  </head>
+  <body class="loggedIn">
+
+    <div class="overlay"> 
+      <div class="popBox"></div>
+    </div> 
+   
+    <div class="row">
+    	<div class="rewards-nav">
+      <ul>
+          <li><a href="LoggedIn.html">Rewards<br /> Home</a></li>
+          <li><a href="howItWorks.html">How It<br /> Works</a></li>
+          <li><a href="UploadReceipt.html">Upload<br /> Receipt</a></li>
+          <li><a href="EarnPoints.html">Earn<br /> Points</a></li>
+          <li><a href="RedeamPoints.html">Redeem<br /> Rewards</a></li>
+      </ul>
+ 	</div><!-- end rewards-nav-->
+
+      <div id="wrap">
+
+      <div id="profile-container">
+
+		  <div class="profile-panel-outer-container">
+        	      
+  	  <div class="profile-panel">
+
+        <ul class="logOut-container">
+
+            <li class="profile-icon">
+                <div class="avatar">
+                  <img src="img/avatar.jpg" alt="avatar" width="50" height="50" />
+                </div>
+                <a href="profilePage.html">
+                  <div class="view-profile">
+                    <p>View
+                      <br />
+                      Profile
+                    </p>
+                  </div>
+                </a>
+            </li>
+         <a href="LoggedOut.html" class="logOut-button">
+            Log Out
+          </a>
+          <a href="LoggedOut.html" class="logOut-tablet">
+            Log Out
+          </a>
+        </ul><!--logOut container-->
+
+      <!-- container for displaying the points per profile -->
+      <div class="points-container">
+          <div class="profile-name">
+              <p>Welcome Jessica</p>
+              <p>
+                You have<br/> 
+                <span>3141 points!</span>
+              </p>
+          </div><!--profile points-->
+      </div><!--points container-->
+    
+    	<!--container for points buttons-->
+     <ul class="points-button-container">
+      <!--
+        	<a href="pointsHistory.html">
+            <li class="points-history">
+              points history
+            </li>
+          </a>
+          <a href="leaderBoard.html">
+          <li class="leaderboard">
+              leaderboard
+          </li>
+          </a>
+       -->
+          <li class="points-history-tablet">
+              <a href="pointsHistory.html">points history</a>
+          </li>
+          <li>|</li>
+          <li class="leaderboard-tablet">
+            <a href="leaderBoard.html">leaderboard</a>
+          </li>
+      </ul><!--points container-->
+      
+      <!--login buttons for dekstop/tablet/mobile-->
+      <li class="initial"><a href="#">
+            <div class="EarnMore-button_desktop">Earn More Now</div>
+            <div class="EarnMore-button_tablet">Earn More Now</div>
+          </a>
+      </li>
+      <li class="initial"><a href="#">
+        	  <div class="RedeemNow-button_desktop">Redeem Now</div>
+            <div class="RedeemNow-button_tablet">Redeem Now</div>
+          </a>
+      </li>
+      
+      <div class="featured-product-container">
+      	<img src="img2/featuredImage.png" alt="featured product" width="210" height="210" />
+        <div class="featured-product-button">Redeem Now</div>
+      </div><!--featured product container-->
+               
+     </div><!--profile panel-->
+
+       	<ul class="login-social-media">
+        <span>share:</span>
+        	  <li>
+              <img src="img/facebook_icon.png" width="35" height="34"/>
+            </li>
+            <li>
+              <img src="img/twitter_icon.png" width="35" height="34"/>
+            </li>
+            <li>
+              <img src="img/pinterest_icon.png" width="35" height="34"/>
+            </li>
+        </ul>
+            
+        </div><!--profile-panel-outer-container-->      
+     </div><!--profile-container-->
+      
+      <!--for main content float left and then at the breakpoint the div will under the facebook login container -->
+      
+      <div id="main-rewards-container">
+
+		<div class="row">
+        
+        	<div class="point-history">
+            <h1>Points History</h1>
+            </div><!-- point history -->
+        
+          <div class="point-history-container">
+          	<table style="width:100%">
+              <tr>
+                <td>Date</td>
+                <td>Activity</td> 
+                <td>Points</td>
+              </tr>
+              <tr>
+                <td>8/15/14</td>
+                <td>Receipt Scan</td> 
+                <td>800</td>
+              </tr>
+              <tr>
+                <td>8/18/13</td>
+                <td>Follow Goody's on Twitter</td> 
+                <td>1000</td>
+              </tr>
+              <tr>
+                <td>8/23/13</td>
+                <td>Receipt Scan</td> 
+                <td>500</td>
+              </tr>
+              <tr>
+                <td>8/26/13</td>
+                <td>Completed Profile Questions</td> 
+                <td>22,000</td>
+              </tr>       
+		</table>
+          </div><!--points-container-->
+        </div><!--row -->
+      </div><!--main-pointsHistory-container-->
+    </div><!--row-->
+    
+       
+      </div><!--main-rewards-container-->
+
+    </div><!--row-->
+    
+    <footer>
+        
+            <ul>
+                <a href="privacyPolicy.html"><li>Privacy Policy</li></a>
+                <li>/</li>
+               <a href="termsAndConditions.html"><li>Terms &amp; Conditions</li></a>
+               <li>/</li>
+               <a href="rulesAndRegulations.html"><li>Rules &amp; Regulations</li></a>
+            </ul>
+          
+    </footer>
+
+  </div><!-- Close Wrap -->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>$(document).foundation();</script>
+
+  </body>
+  
+</html>

@@ -1,0 +1,190 @@
+.overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	display: none;
+}
+.popBox {
+	position: relative;
+	max-width: 600px;
+	max-height: 85%;
+	background: #fff;
+	min-height: 10%;
+	margin: 0 auto;
+	margin-top: 5%;
+	overflow: auto;
+
+}
+.pad {
+	padding: 25px;
+}
+.btm_text{
+	color:#000;
+	}
+
+/*mobile popup styles*/
+@media only screen and (max-width: 670px){
+
+.popBox {
+	max-width: 600px;
+	background: #fff;
+	min-height: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	margin-top: 0;
+	overflow: auto;
+
+}
+
+}
+
+/* Registration.html Styles */
+
+input#fb_button {
+	height: 60px;
+    width: 300px;
+    margin-top: 20px;
+    background: url(../img/facebook_register.png) no-repeat;
+    color: white;
+    border: none;
+    font-size: 0.8em;
+}
+#wrapper {
+	text-align: center;
+}
+#fb_register {
+    text-align: center; 
+    background: #44609f;
+}
+.fb_terms {
+	font-size: .8em; 
+	color: #fff;
+}
+#wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
+	box-shadow: 0px 2px 3px #888888;
+}
+#register_form {
+	font-size: .8em;
+}
+.input_field {
+	margin: 0 0 15px 0;
+}
+.captcha_btn {
+	/*background: #054c80;*/
+	background: #ffb581;
+	color: white;
+	padding: 10px 0 10px 0;
+	font-family: sans-serif;
+	font-weight: 200;
+	margin-bottom: 30px;
+	width: 150px;
+	margin: 10px auto 10px auto;
+}
+.registrationFormWrap {
+	max-width: 70%; 
+	margin: 0 auto;
+}
+#register {
+	height: 37px;
+	width: 209px;
+	margin: 10px auto;
+	background: url(../img/email_register.jpg) no-repeat;
+	color: white;
+	border: none;
+	font-size: 0.8em;
+}
+.user_agreement {
+	padding: 10px 0;
+}
+.dBlock {
+	display: block;
+	width: 100%;
+}
+
+/* Registration Thankyou.html Styles */
+
+.thankYou {
+	cursor: pointer;
+}
+h2.thanks {
+	margin-bottom: 10px;
+}
+
+
+/* Complete Profile */
+.completeProfile {
+	cursor: pointer;
+}
+.radio_btns {
+	float: left;
+	width: 50%;
+}
+#wrapper3 p {
+	display: block;
+	margin-top: 30px;
+	font-size: 1em;
+	color: #000;
+	font-weight: bold;
+}
+.cpBtn {
+	display: block;
+	margin-top: 70px;
+	clear: left;
+	text-align: center;
+}
+
+/*Product Details*/
+.productWrap {
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: left; 
+}
+.productWrap h2, .thanks h2.congrats {
+	font-family: "Fedra Sans" !important;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #102187;
+
+}
+.productWrap h3 {
+	font-family: "Fedra Sans" !important;
+	font-size: 1.2em;
+	color: #102187;
+	margin-top: -7px;
+}
+.productWrap p {
+	margin-top: 10px;
+}
+
+/* Update Info Pop Up */
+h2.congrats, h2.thanks {
+	font-family: "Fedra Sans" !important;
+	font-size: 2em;
+	line-height: .9em;
+	font-weight: bold;
+	color: #000;
+}
+
+/* Address Popup */
+.input_field_small {
+	float: left; 
+	width: 100px!important;
+	margin-right: 30px!important;
+}
+.btnTop {
+	clear: left;
+	margin-top: 70px;
+	display: block;
+}
+/* PopUp Buttons */
+.popTxt {
+	margin-bottom: 5px;
+	line-height: 1em;
+	font-size:1.6em;
+}
+.popupBtn {
+	height: 40px;
+	margin-right: 15px;
+}

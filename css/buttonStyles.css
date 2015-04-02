@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* button styles hover and active states */
+
+
+/*Login desktop and tablet button with hover and active states*/
+.EarnMore-button_desktop{
+		background: url('../img2/earnMoreBtn_sprite.png') no-repeat center 0;
+		width: 85%;
+		height: 54px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+		margin-bottom:7%;
+	}
+.EarnMore-button_desktop:active{
+		background: url('../img2/earnMoreBtn_sprite.png') no-repeat center -70px;
+	}
+/*Earn More tablet button*/
+.EarnMore-button_tablet{
+		background: url('../img2/earnMoreNow_tablet.png') no-repeat 0 0;
+		width: 175px;
+		height: 35px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+		margin-top:-50px;
+	}
+/*redeem desktop and tablet button with hover and active states*/
+.RedeemNow-button_desktop{
+		background: url('../img2/redeemNowBtn_sprite.png') no-repeat center 0;
+		width: 85%;
+		height: 54px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+	}
+.RedeemNow-button_desktop:active{
+		background: url('../img2/redeemNowBtn_sprite.png') no-repeat center -70px;
+	}
+/*Redeem Now tablet button*/
+.RedeemNow-button_tablet{
+		background: url('../img2/redeemNow_tablet.png') no-repeat 0 0;
+		width: 175px;
+		height: 35px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+		margin-top:-50px;
+	}
+/*
+.points-history{
+		background: url('../img/points-history.png');
+		width: 104px;
+		height: 34px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+
+.leaderboard{
+		background: url('../img/leaderboard.png');
+		width: 104px;
+		height: 34px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+*/
+.featured-product-button{
+		background: url('../img2/featuredProduct_img.png') no-repeat 0 -64px;
+		width: 175px;
+		height: 45px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+		margin-top:-54px;
+		z-index:10;
+		position:relative;
+	}
+.featured-product-button:active{
+		background: url('../img2/featuredProduct_img.png') no-repeat 0 0px;
+	}
+
+/*Pediacare updated button styles*/
+.facebook-login-button_desktop{
+		margin-top:15px;
+	}
+
+.login-button_desktop{
+		background: url('../img2/loginBtn_sprite.png') no-repeat center 0;
+		width: 100%;
+		height: 54px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+		margin-bottom:10%;
+	}
+.login-button_desktop:active{
+		background: url('../img2/loginBtn_sprite.png') no-repeat center -69px;
+		
+	}	
+/*facebook desktop button with hover and active states*/
+
+.facebook-login-button_desktop{
+		background: url('../img2/facebookLoginBtn_sprite.png') no-repeat center -80px;
+		width:100%;
+		height: 65px;
+		cursor:pointer;
+		display:block;
+		text-indent:-9999px;
+		margin: 0 auto;
+	}
+.facebook-login-button_desktop:active{
+		background: url('../img2/facebookLoginBtn_sprite.png') no-repeat center 0px;
+}
+/*Login tablet button with hover and active states*/
+.login-button-tablet{
+		background: url('../img2/login_tablet.png') no-repeat 0 0;
+		width: 100px;
+		height: 53px;
+		cursor:pointer;
+		display:block;
+		padding:0px;
+		margin-top:-31px;
+		position:absolute;
+		vertical-align:top;
+		text-indent:-9999px;
+	}
+/*facebook tablet button with hover and active states*/
+.facebook-login-button-tablet{
+		background: url('../img2/facebookLogin_tablet.png') no-repeat 0 0;
+		width: 170px;
+		height: 53px;
+		cursor:pointer;
+		display:block;
+		padding:0px;
+		margin-top:-31px;
+		position:absolute;
+		vertical-align:top;
+		text-indent:-9999px;
+		margin-left:105px;
+	}
+.login-button-mobile{
+		width:25%;
+		cursor:pointer;
+		display:block;
+		padding:0px;
+		vertical-align:top;
+		margin-right:3%;
+	}	
+.facebook-login-button-mobile{
+		width:42%;
+		cursor:pointer;
+		display:block;
+		padding:0px;
+		vertical-align:top;
+	}	
+@media (max-width: 1000px){
+	.login-button_desktop{
+		width:100%;
+		}
+	
+	.login-button_desktop:active{
+		width:100%;
+		
+	}
+}
+@media (max-width: 955px){
+	.EarnMore-button_desktop,.RedeemNow-button_desktop,.facebook-login-button_desktop,.login-button_desktop{
+		border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		-webkit-border-radius: 4px; 
+		-o-border-radius: 4px; 
+	}
+	{
+		border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		-webkit-border-radius: 4px; 
+		-o-border-radius: 4px; 
+	}
+	}
+
+@media only screen and (min-width: 840px) {
+	.EarnMore-button_tablet,.RedeemNow-button_tablet{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.EarnMore-button_desktop,.RedeemNow-button_desktop,.featured-product-button{
+		display:none;
+	 }
+.EarnMore-button_tablet{
+		position:absolute;
+		left:50%;
+		top: 72px;
+	}	
+.RedeemNow-button_tablet{
+		position:absolute;
+		left:50%;
+		top: 127px;
+	}
+}
+
+@media only screen and (max-width: 641px) {
+.EarnMore-button_tablet,.RedeemNow-button_tablet{
+		display:none;
+	}
+}
+
+/* Logged Out */
+@media only screen and (max-width: 840px) {
+	.login-button_desktop,.facebook-login-button_desktop,.login-button-mobile,.facebook-login-button-mobile{
+		display:none;
+	 }
+}
+@media only screen and (min-width: 840px) {
+	.facebook-login-button-tablet,.login-button-tablet,.login-button-mobile,.facebook-login-button-mobile{
+		display:none;
+	}
+}
+@media only screen and (max-width: 641px) {
+.facebook-login-button-tablet,.login-button-tablet{
+		display:none;
+	}
+.login-button-mobile,.facebook-login-button-mobile{
+		display:block;
+	}
+}
+@media only screen and (max-width: 460px) {	
+	.login-button-mobile{
+		width:32%;
+		
+	}	
+.facebook-login-button-mobile{
+		width:54%;
+		
+	}
+}
+
