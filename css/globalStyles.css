@@ -60,7 +60,7 @@
 		text-decoration: none;
 	}
 	#main-rewards-container {
-		max-width: 71%;
+		max-width: 66%;
 	}
 	p, #main-rewards-container li {
 		font-family: 'MyriadPro-Regular';
@@ -100,6 +100,13 @@
 		}
 
 /*----- Live Text -----*/
+	.CTA_headline_text{
+		padding-left:15px;
+		}
+	.CTA_headline_text p{
+		font-family: "Fedra Sans";
+		color:#6BB1E1;
+		}
 	.heroText {
 		position: absolute;
 		top: 5%;
@@ -142,7 +149,7 @@
 		width:76%;
 	}
 	.left-thumb-text{
-		width:37%;
+		width:64%;
 		}
 	.left-thumb-text h3{
 		font-family: "Fedra Sans";
@@ -645,7 +652,7 @@
 /*--------Facebook login styles----------*/
 	#login-container {
 		float:right;
-		width: 26%;
+		width: 32%;
 	}
 	#login-container li{
 		text-align:center;
@@ -666,8 +673,15 @@
 	.login span {
 		/*font-size: 1.2em;*/
 		font-weight: bold;
-		display: block;
+		/* display: block; */
 	}
+	.login h1{
+		color:#FFF;
+		margin:0;
+		text-align: center;
+		font-family: 'MyriadPro-Regular';
+		font-size:1.8em;
+		}
 	.login p {
 		color:#FFF;
 		margin:0;

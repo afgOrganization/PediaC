@@ -23,6 +23,40 @@
 .btm_text{
 	color:#000;
 	}
+.registermobile{
+	display:none;
+	}
+.robotAgreement div{
+		display:inline-block;
+		}
+.robot{
+	 -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  background-color: white;
+  font-family: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+ 
+  font-size: 0.875rem;
+  
+  padding: 0.5rem;
+  height: 2.3125rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+	}
+.robot text{
+	float:left;
+	padding-left:5px;
+	}
+.robotCheck{
+	float:left;
+	}
 
 /*mobile popup styles*/
 @media only screen and (max-width: 670px){
@@ -42,11 +76,23 @@
 
 /* Registration.html Styles */
 
+/***APRIL 2015 UPDATE***/
+.fb_button{
+	padding-top:25px;
+	width:90%;
+	height:auto;
+	}
+.fb_button_mobile{
+	display:none;
+	}
+
 input#fb_button {
-	height: 60px;
-    width: 300px;
+	/*
+	height: 65px;
+    width: 303px;
     margin-top: 20px;
     background: url(../img/facebook_register.png) no-repeat;
+	*/
     color: white;
     border: none;
     font-size: 0.8em;
@@ -68,6 +114,12 @@ input#fb_button {
 #register_form {
 	font-size: .8em;
 }
+#register_form text{
+	font-family: 'MyriadPro-Regular';
+	font-size: 1.2em;
+	color:#333;
+	}
+
 .input_field {
 	margin: 0 0 15px 0;
 }
@@ -83,7 +135,7 @@ input#fb_button {
 	margin: 10px auto 10px auto;
 }
 .registrationFormWrap {
-	max-width: 70%; 
+	max-width: 100%; 
 	margin: 0 auto;
 }
 #register {
@@ -97,6 +149,7 @@ input#fb_button {
 }
 .user_agreement {
 	padding: 10px 0;
+	clear:both;
 }
 .dBlock {
 	display: block;
@@ -188,3 +241,44 @@ h2.congrats, h2.thanks {
 	height: 40px;
 	margin-right: 15px;
 }
+
+@media only screen and (max-width: 840px) {
+	.fb_button{
+		display:none;
+		}
+	.dBlock {
+		clear:both;
+		}
+	.fb_button_mobile{
+		display:block;
+		padding-top:25px;
+		width:50%;
+		height:auto;
+		position:relative !important;
+		margin-left:auto;
+		margin-right:auto;
+		}
+		
+	.registerDesktop{
+		display:none;
+		}
+	.registermobile{
+	display:block;
+	position:relative !important;
+	margin-left:auto;
+	margin-right:auto;
+	width:54%;
+		}
+	}
+@media only screen and (max-width: 570px){
+	.fb_button_mobile{
+		width:57%;
+	}
+@media only screen and (max-width: 500px){
+	.fb_button_mobile{
+		width:73%;
+	}
+	.registermobile{
+		width:74%;
+		}
+	}

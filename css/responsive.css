@@ -30,6 +30,7 @@
 	.login{
 		width:100%;
 		height:auto;
+		padding-bottom:25px;
 	}
 	.profile-panel-outer-container{
 		width:100%;
@@ -185,6 +186,8 @@
 		width:100%; 
 	    margin:0 auto;
 		margin-top:2%;
+		padding-left:2%;
+		padding-right:2%;
 	}
 	.main-thumb{
 		margin-top: 2px;
@@ -276,6 +279,65 @@
 	.redeemShort{
 		padding-top: 23px;
 	}
+	
+	/*********April 2015 UPDATE************/
+	
+	.firstName{
+		width:47% !important;
+		float:left;
+		}
+	.lastName{
+		width:47% !important;
+		float:right;
+		}
+	.firstNameError{
+		position:absolute;
+		top:50px;
+		left:5px;
+		}
+	.lastNameError{
+		position:relative;
+		float:right;
+		clear:both;
+		right:5px;
+		top:-3px;
+		}
+	.passwordRequired{
+		width:47% !important;
+		float:left;
+		}
+	.passwordError{
+		position:absolute;
+		left:15px;
+		margin-top: 49px !important;
+		}
+	.passwordConfirm{
+		width:47% !important;
+		float:right;
+		}
+	.passwordConfirmError{
+		position:relative;
+		float:right;
+		clear:both;
+		right:5px;
+		top:-3px;
+		}
+	.emailError{
+		margin-bottom: 6px !important;
+		}
+	.robot{
+		width:47% !important;
+		margin-top:2% !important;
+		float:left;
+		}
+	.robotMessage{
+		clear:both;
+		float:left;
+		}
+	.robotAgreement{
+		float:right;
+		margin-top:-57px;
+		}
 }
 /* Main Nav */
 @media only screen and (max-width: 739px){
@@ -388,7 +450,8 @@
 		}
 	.login {
 		padding-bottom: 0;
-		height: 147px;
+		padding-bottom:25px;
+		/* height: 147px; */
 	}
 	.logOut-container{
 		margin-bottom:0%;
@@ -446,7 +509,7 @@
 		margin-left: 50px;
 	}
 	.loMain {
-		margin-top: 20px;
+		margin-top: 23px;
 	}
 		
 

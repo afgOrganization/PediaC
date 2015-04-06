@@ -43,66 +43,74 @@
      <div id="login-container">
      
     		<div class="login">
-          	<p>Already a member?
-              <a href="#">
-                <span>Log in now!<span>
-              </a>
-            </p>
+          	<h1>Sign Up Now</h1>
                
-            <form>
-            	<ul class="input-field-container">
-
-                  <li>
-                  <input class="email" type="text" name="email" placeholder="Email">
-                   <div class="errorMessage">Required field.</div>
-                  </li>
-                 
-                  <li>
-                  <input class="password" type="text" name="password"  placeholder="Password">
-                  <div class="errorMessage">Required field.</div>
-                  </li>
-                  
-                  
-                  
-                  <li>
-                    <a href="LoggedIn.html">
-                    
-                       <div class="login-button_desktop stretch">Log In </div>
-                       <div class="login-button-tablet">Log In </div>
-                     
-                    </a>
-                 </li>
-                  <li>
-                    <a href="#">
-                    
-                    
-                      <div class="facebook-login-button_desktop">Log In With Facebook</div>
-                      <div class="facebook-login-button-tablet">Log In With Facebook</div>
-                     
-                    </a>
-                  </li>
-               </ul>
-               
-                <div class="mobile-login-buttons">
-                	 <img class="login-button-mobile" src="img2/login_mobile_btn.png" alt="login" width="100" height="130" />
-                   <img class="facebook-login-button-mobile" src="img2/facebookLogin_mobile.png" alt="facebook login" width="170" height="130" />
-                </div><!--mobile login buttons-->
-               
-            </form>
-        
-           	<ul class="login-social-media">
-              <span>share:</span>
-              <li>
-                <img src="img2/facebook_icon.png" width="36" height="37"/>
-              </li>
-              <li>
-                <img src="img2/twitter_icon.png" width="36" height="37"/>
-              </li>
-              <li>
-                <img src="img2/pinterest_icon.png" width="36" height="37"/>
-              </li>
-            </ul>
+            <div id="wrapper">
+    	
+    		<div id="fb_register">
+            	
+    			<!-- <input id="fb_button" type="button" name="fb_button" value=""/> -->
+                        <img class="fb_button" src="img/facebook_register.png"/>  
+                        <img class="fb_button_mobile" src="img/facebook_register_mobile.png"/>    
+    				<div class="user_agreement">
+        				<input type="checkbox" name="user_agreement" value="agree" /> <span class="fb_terms">Accept Terms & Conditions</span><br />
+                        <p class="termsError">You must agree to the terms & conditions to continue.</p>
+        			</div>
                 
+    		</div>
+        
+			<form id="register_form" method="post" name="register_form" action="#" class="">
+            	<div style="padding: 15px 0;" class="heading">
+    				<text>OR Register through email:</text>
+                    <br />
+                </div>
+                
+                <div class="registrationFormWrap">
+                    
+                    <div style="position:relative;">
+    				<input class="input_field firstName" type="text" name="first_name" placeholder="First Name"/>
+                    <p class="formErrorMessage firstNameError">First Name Required.</p>
+                    </div>
+           
+    				<input class="input_field lastName" type="text" name="last_name" placeholder="Last Name"/>
+                    <p class="formErrorMessage lastNameError">Last Name Required.</p>
+
+    				<input class="input_field" type="email" name="email" placeholder="Email"/>
+                    <p class="formErrorMessage emailError">Email Required.</p>
+              
+    				<input class="input_field passwordRequired" type="password" name="password" placeholder="Password" />
+                    <p class="formErrorMessage passwordError">Password Required.</p>
+            
+    				<input class="input_field passwordConfirm" type="password" name="pass_confirm" placeholder="Confirm Password" />
+                    <p class="formErrorMessage passwordConfirmError">Password Comfirmation Required.</p>
+                    
+                    <div class="robot">
+                    	<input class="robotCheck" type="checkbox" name="user_agreement" value="agree" />
+                        <text>I am not a robot</text>
+                    </div>
+                    <p class="formErrorMessage robotMessage">in not a robot</p>
+
+					 <div class="user_agreement robotAgreement">
+        				<div><input type="checkbox" name="user_agreement" value="agree" /> </div>
+                        
+                        <div><span class="fb_terms">Accept Terms & Conditions</span></div>
+                       
+        			</div>
+    			  
+                    <br />
+                    <div class="dBlock">
+                        <a href="#">
+                	       <img class="thankYou registerDesktop" src="img/popupAssets/registerBtn.png">
+                           <img class="thankYou registermobile" src="img/popupAssets/registerBtn_mobile.png">
+                        </a>
+                    </div>
+            	
+            </form>
+
+                   
+
+            </div>
+    </div>    
         </div><!-- .login-->   
 
     </div><!--large-4 medium-4 columns-->
@@ -120,50 +128,57 @@
                 <h1>It's Time to Get Rewarded</h1>
                 <p>Redeem great prizes, savings coupons, and perks, it's easy to earn and free to join!</p>
              </div>
-
+		<!-- 
              <a class="signUpNow" href="#">
                 <img class="main-thumb-button dt" src="img2/signUpNow.png" alt="sign up now" width="210" height="54" />
                 <img class="main-thumb-button-mobile mob" src="img2/signUp_mobile.png" alt="sign up now" width="180" height="89" />
                 
              </a>
-            
+         -->
           </div>
         </div>
+        
+        <div class="CTA_headline_text">
+                	<p>Just a few of the easy ways to earn points towards great PediaCare<span>&reg;</span> rewards:</p>
+            </div>
 
         <div class="row">
           <div class="large-4 medium-4 small-12 columns left-thumb LOthumb">
               <img class="left-thumb-img" src="img2/PediaCare_leftThumb.png" alt="leftThumb" width="270" height="270" />
               <img class="left-thumb-mobile-img mob" src="img2/top-mobile-thumb.png" alt="leftThumb" width="562" height="250" />
-              <img class="left-thumb-button" src="img2/ClickHere-Desktop.png" alt="leftThumbButton" width="165" height="40" />
-              <p class="points">100 Points</p>
+              <!-- <img class="left-thumb-button" src="img2/ClickHere-Desktop.png" alt="leftThumbButton" width="165" height="40" /> -->
+              <!-- <p class="points">100 Points</p> -->
 
               <div class="textContainer homeTextContainer left-thumb-text">
-                     <h3>Learn More About Our Products</h3>
+              	<h2>Share a coupon with your friends!</h2>
+                     
  
               </div>
           </div><!-- thumb 1 -->
 
           <div class="large-4 medium-4 small-12 columns middle-thumb LOthumb">
-          <p class="points">50 Points</p>
+          <!-- <p class="points">50 Points</p> -->
               <img class="middle-thumb-img" src="img2/PediaCare_middleThumb_loggedOut.png" alt="middleThumb" width="270" height="270" />
               <img class="middle-thumb-mobile-img mob" src="img2/middle-mobile-thumb-loggedOut.png" alt="middleThumb" width="562" height="250" />
              
+            <!--
              <ul class="middle-thumb-cta-container">
               <li><img class="middle-thumb-twitter-button" src="img2/twitterThumb_img.png" alt="middleThumbButton" width="36" height="37" /></li>
               <li>or</li>
              <li> <img class="middle-thumb-pinterest-button" src="img2/pinterestThumb_img.png" alt="middleThumbButton" width="35" height="36" /></li>
              </ul>
+             -->
 
               <div class="textContainer">    
-                      <h2>Share a coupon with your friends!</h2>
+                      <h2>Sign Up to Receive the Latest News from PediaCare<span>&reg;</span></h2>
                   </div>
           </div><!-- thumb 2 -->
 
           <div class="large-4 medium-4 small-12 columns right-thumb LOthumb">
-          <p class="points">50 Points</p>
+          <!-- <p class="points">50 Points</p> -->
               <img class="right-thumb-img" src="img2/PediaCare_rightThumb.png" alt="rightThumb" width="269" height="404" />
               <img class="right-thumb-mobile-img mob" src="img2/bottom-mobile-thumb.png" alt="rightThumb" width="562" height="250" />
-              <img class="right-thumb-button" src="img2/tweetNow.png" alt="rightThumbButton" width="160" height="40" />
+              <!-- <img class="right-thumb-button" src="img2/tweetNow.png" alt="rightThumbButton" width="160" height="40" /> -->
 
               <div class="textContainer">
                       
