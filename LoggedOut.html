@@ -67,23 +67,26 @@
                 
                 <div class="registrationFormWrap">
                     
-                    <div style="position:relative;">
-    				<input class="input_field firstName" type="text" name="first_name" placeholder="First Name"/>
+                    <div class="firstName">
+    					<input class="input_field" type="text" name="first_name" placeholder="First Name"/>
                     <p class="formErrorMessage firstNameError">First Name Required.</p>
                     </div>
            
-    				<input class="input_field lastName" type="text" name="last_name" placeholder="Last Name"/>
-                    <p class="formErrorMessage lastNameError">Last Name Required.</p>
-
+    				<div class="lastName">
+                    	<input class="input_field " type="text" name="last_name" placeholder="Last Name"/>
+                    	<p class="formErrorMessage lastNameError">Last Name Required.</p>
+					</div>
     				<input class="input_field" type="email" name="email" placeholder="Email"/>
                     <p class="formErrorMessage emailError">Email Required.</p>
               
-    				<input class="input_field passwordRequired" type="password" name="password" placeholder="Password" />
-                    <p class="formErrorMessage passwordError">Password Required.</p>
-            
-    				<input class="input_field passwordConfirm" type="password" name="pass_confirm" placeholder="Confirm Password" />
-                    <p class="formErrorMessage passwordConfirmError">Password Comfirmation Required.</p>
-                    
+              		<div class="passwordRequired">
+    					<input class="input_field" type="password" name="password" placeholder="Password" />
+                    	<p class="formErrorMessage passwordError">Password Required.</p>
+            		</div>
+                    <div class="passwordConfirm">
+    					<input class="input_field" type="password" name="pass_confirm" placeholder="Confirm Password" />
+                    	<p class="formErrorMessage passwordConfirmError">Password Comfirmation Required.</p>
+                    </div>
                     <div class="robot">
                     	<input class="robotCheck" type="checkbox" name="user_agreement" value="agree" />
                         <text>I am not a robot</text>

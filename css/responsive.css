@@ -291,36 +291,24 @@
 		float:right;
 		}
 	.firstNameError{
-		position:absolute;
-		top:50px;
-		left:5px;
+		
 		}
 	.lastNameError{
-		position:relative;
-		float:right;
-		clear:both;
-		right:5px;
-		top:-3px;
+		
 		}
 	.passwordRequired{
 		width:47% !important;
 		float:left;
 		}
 	.passwordError{
-		position:absolute;
-		left:15px;
-		margin-top: 49px !important;
+		
 		}
 	.passwordConfirm{
 		width:47% !important;
 		float:right;
 		}
 	.passwordConfirmError{
-		position:relative;
-		float:right;
-		clear:both;
-		right:5px;
-		top:-3px;
+		
 		}
 	.emailError{
 		margin-bottom: 6px !important;
